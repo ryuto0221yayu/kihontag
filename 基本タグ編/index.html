@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>practice1</title>
+  <link rel="icon" href="favicon.png">
+</head>
+
+<body>
+  <h1>プログラミングの世界へようこそ</h1>
+  <h2>1編終了です!お疲れさまでした。</h2>
+  <h3>早速ですが課題に取り組んで頂きます。</h3>
+  <h4>今回の課題はこのHTMLのみで作られたものを真似してみようです</h4>
+  <h1>それではやってみよう！！！</h1>
+  <hr>
+  <img src="favicon.png" alt="アイコン">
+  <ol>
+    <li><a href="#description">HTMLの説明</a></li>
+    <li><a href="#practice1">実践問題1</a></li>
+    <li><a href="#practice2">実践問題2</a></li>
+  </ol>
+  <h1 id="description">HTMLとは?</h1>
+  <p>現在、インターネット上で公開されているWebサイト（ホームページ）のほとんどがHTMLで作られています。ITスキル初学者でも理解しやすくなっております。<br>
+    前までHTMLファイル上で直接線を描いたりレイアウト、配置したりといった、スタイルを当てるような記述が見らてましたが、<br>
+    今ではCSSという言語の2種類で分けられていまして <mark>HTMLで文書の組み立て</mark>、<mark>CSSで文書にデザイン</mark>を当てることになっております。<br>
+    現在ではHTMLファイル上でそのようなスタイルを当てる記述は推奨されていません。
+  </p>
+  <h1>HTML5とは?</h1>
+  <p>HTML5とは<b>HTMLのバージョン5</b>、つまり改訂第5版を学びます。</p>
+  <hr>
+
+  <h1 id="practice1">実践問題1</h1>
+  <ol>
+    <li>GoogleMapの表示</li>
+    <li>&lt;dl&gt;での表示</li>
+    <li>簡単なテーブル表示</li>
+  </ol>
+  
+  <p>これらをやってもらいます</p>
+
+  <section>
+    <p>問題1<br>&lt;iframe&gt;を使いGoogleMapの東京ドームを調べMapとして表示させて下さい!</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210542.45426559538!2d135.0655178945312!3d34.45910650000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000c725abcc0ea5%3A0x50bad087f0bac4bc!2z5bK45ZKM55Sw5Z-OIOacrOS4uOi3oQ!5e0!3m2!1sen!2sjp!4v1717208926190!5m2!1sen!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+  <section>
+    <p>問題2<br>&lt;dl&gt;を使い表示させて下さい!</p>
+    <dl>
+      <dt>HTML</dt>
+      <dd>文書の意味</dd>
+      <dt>CSS</dt>
+      <dd>文書のデザイン</dd>
+      <dt>JavaScript</dt>
+      <dd>文書の動き</dd>
+    </dl>
+    <p>問題3<br>&lt;table&gt;を使い表示させて下さい!</p>
+    <table border="1">
+      <caption>予定表</caption>
+      <thead>
+        <tr>
+          <th>日付</th>
+          <th colspan="2">出来事</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th rowspan="2">3/5</th>
+          <td>html</td>
+          <td>finish</td>
+        </tr>
+        <tr>
+          <td>css</td>
+          <td rowspan="2">finish</td>
+        </tr>
+        <tr>
+          <th>3/8</th>
+          <td>css</td>
+        </tr>
+        <tr>
+          <th>3/23</th>
+          <td>JavaScript</td>
+          <td>finish</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h1 id="practice2">実践問題2</h1>
+    <ol>
+      <li>もう一つのHTMLファイルを作ろう</li>
+      <li>もう一つのHTMLファイルと&lt;a href="../~~html"&gt;で紐付けよう！</li>
+      <li>もう一つのファイルに文を書こう
+      </li>
+    </ol>
+    <h1>もう一つのページは<a href="sub.html" target="_blank">こちら</a>から</h1>
+  </section>
+</body>
+
+</html>
